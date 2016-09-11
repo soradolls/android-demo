@@ -15,6 +15,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".service.ServiceDemoActivity"></activity>
+        <activity android:name=".service.ServiceMessengerDemoActivity"/>
+        <service android:name=".service.DemoService" />
+        <service android:name=".service.DemoMessengerService" android:process=":demo_messenger"/>
     </application>
 
 </manifest>
